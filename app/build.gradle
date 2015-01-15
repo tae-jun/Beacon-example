@@ -21,5 +21,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.kontakt.sdk.android:library:1.0.2'     // Kontakt.io dependency - CANNOT FETCH FROM SERVER
+    //compile 'com.kontakt.sdk.android:library:1.0.2'
+    // Kontakt.io dependency - CANNOT FETCH FROM SERVER
+    compile files('libs/android-sdk-1.0.2.jar')
+    compile files('libs/core-sdk-1.0.4.jar')
 }

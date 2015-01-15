@@ -15,6 +15,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url 'http://repo.kontakt.io/repository/internal/' }     // Kontakt.io public repository
+        //maven { url 'http://repo.kontakt.io/repository/internal/' }     // Kontakt.io public repository
     }
 }
